@@ -1,0 +1,5 @@
+services:
+  archwiki_bot:
+    image: ilmuflone/archwiki_bot:latest
+    environment:
+      TELEGRAM_TOKEN: "foo:abc"
